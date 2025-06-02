@@ -3,6 +3,7 @@ SELECT basics
   WHERE name = 'Germany'
   Correct answer
 population: 80716000
+  
 
 2 - SELECT name, population FROM world
   WHERE name IN ('Brazil', 'Russia', 'India', 'China');
@@ -12,6 +13,7 @@ Brazil	202794000
 China	1365370000
 India	1246160000
 Russia	146000000
+  
 
 3 - SELECT name, area FROM world
   WHERE area BETWEEN 250000 AND 300000
