@@ -1,0 +1,36 @@
+SELECT names
+
+1 - SELECT name FROM world
+  WHERE name LIKE 'Y%'
+
+2 - SELECT name FROM world
+  WHERE name LIKE 'y%'
+  
+3 -SELECT name FROM world
+  WHERE name LIKE 'x%' 'x%'
+
+4 - SELECT name FROM world
+  WHERE name LIKE 'terra%''terra%'
+
+5 - SELECT name FROM world
+  WHERE name LIKE 'C%' 'ia%'
+
+6 - SELECT name FROM world
+  WHERE name LIKE '%ee%' '%oo%'
+
+7 - SELECT name FROM world
+  WHERE name LIKE 'a%'
+
+8 - SELECT name FROM world
+ WHERE name LIKE '_t%'
+ORDER BY name
+
+9 - SELECT name FROM world
+ WHERE name LIKE '_o%'
+
+10 - SELECT name FROM world
+ WHERE name LIKE 'Cu%' 'To%'
+
+
+9 - SELECT name FROM world
+ WHERE name LIKE '_o%'
