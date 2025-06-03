@@ -37,15 +37,4 @@ SELECT name
  FROM world
  WHERE capital = CONCAT(name, ' City')
 
-SELECT capital, name
- FROM world
- WHERE capital LIKE CONCAT ('%', name, '%')
-
-SELECT capital, name
- FROM world
- WHERE capital LIKE CONCAT (name, '_%')
-
-SELECT name,
-REPLACE(capital, name, '')
-FROM world
-WHERE capital LIKE CONCAT (name, '_%')
+?
